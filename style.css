@@ -1,0 +1,35 @@
+body{
+    background-color: #518cec;
+}
+
+header ul{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    background-color: blue;
+}
+
+header ul li a{
+    color: whitesmoke;
+    font-family: 'Mukta', sans-serif;
+    font-weight: 900;
+    font-style: italic;
+}
+
+header ul li a:hover{
+    color: black;
+    text-shadow: #fff -1px -1px;
+}
+
+#meio{
+    display: flex;
+    justify-content: center;
+    padding: 5px;
+    height: 200px;
+}
+
+.img-meio{
+    padding: 20px;
+    width: 200px;
+}
