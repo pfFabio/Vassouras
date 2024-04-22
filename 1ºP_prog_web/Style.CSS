@@ -1,0 +1,51 @@
+
+body > header{
+    font-size: larger;
+}
+
+.menus{
+    list-style-type: none;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+}
+
+.menus > a > li{
+    border: 2px solid black;
+    background-color: darkgray;
+
+}
+
+.menus > a > li:hover{
+    background-color: black;
+    color: #F1F5F6;
+}
+
+.conteudo{
+    margin-top: 0.5%;
+    margin-bottom: 0.5%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.esquerda{
+    width: 30%;
+    border: 2px solid black;
+    background: white;
+}
+
+
+.centro{
+    width: 60%;
+    border: 2px solid black;
+    background: darkgray;
+}
+
+.direita{
+    width: 30%;
+    border: 2px solid black;
+    background: gray;
+}
+
+footer{
+    border: 2px solid black;
+}
