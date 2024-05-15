@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+<body style="background-color: gray;">
+
+<script>
+	function troca(){
+    	document.getElementById('demo').innerHTML = 'muda o texto';
+    }
+</script>
+
+<style>
+p{
+text-align: center;
+}
+
+</style>
+
+<h2>My First JavaScript</h2>
+
+<p id="demo">eu sou um paragrafo</p>
+
+<button type = "button" onclick = "document.getElementById('demo').innerHTML = 'novo valor'">muda o texto</button>
+
+<button type = "button" onclick = "document.getElementById('demo').innerHTML = 'eu sou um paragrafo'">volta ao texto original</button><br>
+<button type = "button" onclick = "document.getElementById('demo').style.fontSize = '2rem'">eu aumento a fonte</button>
+<button type = "button" onclick = "document.getElementById('demo').style.fontSize = '1rem'">eu diminuo a fonte</button>
+
+<input id="input" type= "text" onclick = "document.getElementById('demo').innerHTML = 'só fiz pq o daniel mandou'" onblur="document.getElementById('demo').innerHTML = 'clicou fora'">
+<br>
+<button type = "button" onclick = "document.getElementById('demo').style.display = 'none'">bagulho vai sumir</button>
+<button type = "button" onclick = "document.getElementById('demo').style.display = 'grid'">bagulho vai voltar</button>
+<br>
+<br>
+<img id="img" src="https://static.wikia.nocookie.net/supersmashbrosfanon/images/b/bf/8Bit_Mario.png" style="width:5rem;height:10rem">
+
+
+<button type = "button" 
+onclick = "document.getElementById('img').src = 'https://e7.pngegg.com/pngimages/217/148/png-clipart-super-mario-8-bit-super-mario-bros-video-game-jump-angle-heroes.png'">pula</button>
+
+<button type = "button" 
+onclick = "document.getElementById('img').src = 'https://static.wikia.nocookie.net/supersmashbrosfanon/images/b/bf/8Bit_Mario.png'">pousa</button>
+<br><br><br>
+
+<button type="button" onclick = "troca()">muda o texto</button>
+
+<ul>
+
+	<li>opa1</li>
+	<li>opa2</li>
+	<li>opa3</li>
+	<li>opa4</li>
+	<li>opa5</li>
+
+</ul>
+
+
+
+
+</body>
+</html> 
